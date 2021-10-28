@@ -19,7 +19,7 @@ screen = pygame.display.set_mode((width, height))
 
 # Objects
 mouse_obj = Object()
-mass_obj = Object(pos=np.array([width/2, height/2]), mass=1, mu=0.05)
+mass_obj = Object(pos=np.array([width/2, height/2]), mass=1)
 spring = Spring(obj1=mouse_obj, obj2=mass_obj, L0=50, k=100)
 
 # Mouse pos
